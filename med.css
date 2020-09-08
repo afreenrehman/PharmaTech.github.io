@@ -1,0 +1,32 @@
+
+.sm form{
+    display: flex;
+    padding: 5%;
+}
+body{
+    background-color: #dee4e3;
+}
+.cart
+{
+  text-align: center;
+  font-size: 20px;
+}
+.sm img{
+    padding: 25px;
+    margin-left: 40px;
+    border-radius:15px;
+}
+.sm{
+    display: flex;
+}
+.cart form{
+    display:flex;
+    flex-flow: column;
+    color:  #139286;
+}
+.cart form input, button{
+    width: 55%;
+    height: 25px;
+   margin-left: 23%;
+    color: #139286;
+}

@@ -1,0 +1,197 @@
+            /*login page*/
+
+/*    background-position:right;*/
+
+.login{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #139286;
+    justify-content: space-around;
+    height: 80px;
+   
+}
+.EP{
+    display: flex;
+}
+.login form{
+    display: flex;
+    color: aliceblue;
+}
+.login img{
+    max-width:120px;
+    height:150px;
+    padding: 0px;
+    margin: -45px;
+}
+.EP{
+    padding: 15px;
+    
+}
+.EP input{
+    margin: 9px;
+    border-radius: 8px;
+    opacity: 0.7;
+    border-style:outset;
+}
+.EP button{
+    padding: 8px 8px;
+    margin: 9px;
+    border-radius: 8px;
+    background:#61B5AD;
+    color: aliceblue;
+}
+.bi img{
+    max-width: 120%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    
+}
+.wrapper{
+    display: flex;
+    white-space: nowrap;
+    padding: 10%;
+    justify-content: flex-start;
+}
+.img {
+    display: flex;
+    
+}
+.img img{
+    border-radius: 10px;
+}
+.register{
+    background: #61B5AD;
+    border-color: black;
+    border-width: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    color: #08403B;
+    width: 35%;
+    
+    
+/*    margin-left: 20%;*/
+   
+    
+}
+.register input{
+    opacity: 0.7;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    border-style: dashed;
+    border-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.register h1{
+    color: #08403B;
+    text-align: center;
+}
+.register form{
+    padding-left: 10%;
+}
+.register select{
+    opacity: 0.7;
+    border-radius: 5px;
+    border-style: dashed;
+    
+}
+.register button{
+/*    margin-left: 25%;*/
+    
+    border-radius: 5px;
+    background:  #357E75;
+    color:aliceblue;
+    height: 30px;
+    width: 60px;
+    border-style: dotted;
+    
+    
+}
+@media screen and (min-width:480px){
+    .login .lt button{
+         display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+   
+    .register{
+        width: 50%;
+        
+    }
+    body{
+        background-position:top;
+    }
+/*
+    .login .lt button{
+         display: none;
+    }
+*/
+    
+}
+@media screen and (max-width:480px){
+    body{
+        overflow-x: hidden;
+    }
+    .login{
+        display: flex;
+        flex-flow: column;
+        
+    }
+    .login .lt{
+        display: flex;
+        flex-flow: row;
+        justify-content:space-between;
+        padding: 10%;
+    }
+    .login .lt span{
+        margin: 30px;
+     }
+/*
+     .login img{
+        margin: auto 11%;
+        padding-top: 48px;
+    }
+*/
+    .login form{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 61px;
+        background:#61B5AD;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    }
+    .register{
+        margin: 20% ;
+        padding: 40px 45px;
+        text-align: center;
+        margin-left: 45px
+    
+        
+    }
+    .register h1{
+        white-space: pre-wrap;
+    }
+    .register form{
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+        line-height:8px; 
+    }
+    .register button{
+/*
+        position: absolute;
+        top: 118%;
+        left: 50%;
+*/
+    }
+}
